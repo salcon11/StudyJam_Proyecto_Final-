@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    tools:context="com.silviaalcon.proyectofinal.MainActivity"
+    android:alpha="0.9">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:id="@+id/pa_txt1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/lista"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/icons" />
+
+    <View
+        android:layout_below="@+id/pa_txt1"
+        android:id="@+id/pa_linea"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@color/divider">
+    </View>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/pa_linea"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/item_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:scrollbarStyle="outsideInset">
+    </android.support.v7.widget.RecyclerView>
+
+    <TableLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_usr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bor_main"
+                android:src="@drawable/user"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/btn_pro"
+                android:alpha="0.8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bor_main"
+                android:src="@drawable/acad"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/btn_bib"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bor_main"
+                android:src="@drawable/biblio"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/botoni"
+                android:alpha="0.8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bor_main"
+                android:src="@drawable/about"
+                android:scaleType="fitCenter"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>

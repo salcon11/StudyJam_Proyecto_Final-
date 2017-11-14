@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/try1"
+    tools:context="com.silviaalcon.proyectofinal.AcademicoActivity">
+
+    <TextView
+        android:id="@+id/we_txt11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/web1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold|italic"/>
+
+    <LinearLayout
+        android:layout_below="@id/we_txt11"
+        android:id="@+id/tabla1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:text="@string/web_t1"
+            android:textColor="@color/primary_text"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/im_campus"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:text="@string/web_t1"
+            android:src="@drawable/campus"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/tabla1"
+        android:id="@+id/tabla2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:text="@string/web_t2"
+            android:textColor="@color/primary_text"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/im_web"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:text="@string/web_t1"
+            android:src="@drawable/pagina"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/tabla2"
+        android:id="@+id/tabla3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:text="@string/web_t3"
+            android:textColor="@color/primary_text"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/im_face"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:text="@string/web_t1"
+            android:src="@drawable/face"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/tabla3"
+        android:id="@+id/tabla4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:text="@string/web_t4"
+            android:textColor="@color/primary_text"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/im_pag"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:text="@string/web_t1"
+            android:src="@drawable/sistema"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_above="@+id/btn_volver"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btn_dircar"
+        android:layout_marginTop="10dp"
+        android:textScaleX="1.2"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_borcir"
+        android:text="@string/ab_botond"
+        android:textColor="@color/primary"/>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btn_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_relleno"
+        android:text="@string/ab_boton"
+        android:textColor="@color/icons"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.silviaalcon.proyectofinal.LibrosActivity">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/img_adpli"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/sem_jdec"/>
+
+    <TextView
+        android:layout_below="@+id/img_adpli"
+        android:id="@+id/tl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/asem"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_below="@+id/tl"
+        android:id="@+id/tl_uno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tp"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_below="@+id/tl_uno"
+        android:id="@+id/tl_unod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tp"
+        android:gravity="right"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_below="@+id/tl_unod"
+        android:id="@+id/tl_dos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tp"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_below="@+id/tl_dos"
+        android:id="@+id/tl_dosd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tp"
+        android:gravity="right"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_below="@+id/tl_dosd"
+        android:id="@+id/tl_tres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tp"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_below="@+id/tl_tres"
+        android:id="@+id/tl_tresd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tp"
+        android:gravity="right"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_relleno"
+        android:text="@string/ab_boton"
+        android:textColor="@color/icons"/>
+
+</RelativeLayout>

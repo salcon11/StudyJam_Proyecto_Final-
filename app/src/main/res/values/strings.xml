@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">MeetAndCry</string>
+    <string name="splashScreen">MeetAndCry</string>
+    <string name="NomPer"> Nombre </string>
+
+    <string name="Rendimiento"> Descripcion Rendimiento </string>
+    <string name="Caracter"> Descripcion Caracter </string>
+    <string name="RCaracter"> PROS: </string>
+    <string name="RAcademico"> CONTRAS: </string>
+    <string name="lista"> Lista de Docentes </string>
+    <string name="titlibros"> Bibliografia Sugerida </string>
+    <string name="titacademico"> Nuestras Paginas Web </string>
+
+    <string name="NoAruquipa">Lic. Aruquipa Chambi Marcelo</string>
+    <string name="CaAruquipa"> Explica bien las materias que enseña, y se tiene siempre un examen recuperatorio  </string>
+    <string name="AcAruquipa"> A veces no viene a clases, esto es mas frecuente en la materia de INF-143 que enseña en la noche, porque en las demas es puntual </string>
+
+    <string name="NoBeltran"> Ing. Beltran Villalta Cesar </string>
+    <string name="CaBeltran"> Te enseña el significado de la puntualidad, ya que el llega temprano a todas sus clases  </string>
+    <string name="AcBeltran"> Asi como llega temprano, cierra la puerta pasado ciertos minutos de tolerancia que lo define al principio de clases en concenso con los estudiantes </string>
+
+    <string name="NoCarvajal"> Lic. Carvajal Blanco Brigida </string>
+    <string name="CaCarvajal"> Es un persona paciente por lo general, simpre asigna puntos extras, incluso por alguna idea que puedas tener, le gusta la participacion de sus estudiantes  </string>
+    <string name="AcCarvajal"> A veces se confunde y asigna nota a personas que no hacen sus trabajos </string>
+
+    <string name="NoCasillas"> Lic. Casilla Gutierrez Rene </string>
+    <string name="CaCasillas"> Te enseña desde lo mas basico, para que puedas tener conocimiento de la materia, en sus materias de laboratorio siempre son practicas  </string>
+    <string name="AcCasillas"> Si no te gusta que te exijan, no es una opcion para ti </string>
+
+    <string name="NoHuanca"> Lic. Huanca Quisbert Carmen Rosa </string>
+    <string name="CaHuanca"> Domina los temas a enseñar, da ejercicios para resolver en clase y da firmas por ello, esas firmas pueden suponer una gran diferencia entre aprobar la materia o no  </string>
+    <string name="AcHuanca"> Sus examenes son rudos, asi que aprovecha los primeros </string>
+
+    <string name="NoFlores"> Lic. Flores Rojas Ramiro </string>
+    <string name="CaFlores"> Es una persona teorica, tiene buena letra y te permite tener buenos apuntes, es comprensivo para con sus alumnos  </string>
+    <string name="AcFlores"> No le gusta que hagan trampa, es algo que no tolera. </string>
+
+    <string name="NoGallardo"> Lic. Gallardo Portanda Franz Ramiro </string>
+    <string name="CaGallardo"> Hay mayor alumnado en sus paralelos, por lo general son los primeros en llenarse </string>
+    <string name="AcGallardo"> Como todos los licenciado tiene sus materias buenas y malas, no da una explicacion previa respecto a las defensas de telematica </string>
+
+    <string name="NoHurtado"> Lic. Hurtado Cerruto Victoria </string>
+    <string name="CaHurtado"> Es muy buena explicando, te exige mucho rendimiento respecto a los conocimientos que adquieres, tambien brinda segundas oportunidades  </string>
+    <string name="AcHurtado"> LAs practicas para el laboratorio son recogidas ese mismo dia, si no entregas no entras </string>
+
+    <string name="NoLlanque"> Lic. Llanque Quispe Eufren </string>
+    <string name="CaLlanque"> La materia de INF-112 es su materia, en su materia dispone de exposiciones y si tienes baja nota eso realmente te ayuda  </string>
+    <string name="AcLlanque"> Si te sientas atras las clases te resultaran aburridas, porque no es alguien que hable muy alto </string>
+
+    <string name="NoMenfy"> Lic. Morales Rios Memfy </string>
+    <string name="CaMenfy"> Ofrece examen recuperatorio, e incluso un 2T  </string>
+    <string name="AcMenfy"> En las defensas no exige cualquier solucion pues aveces limita tus estructuras de uso a un cierto numero  </string>
+
+    <string name="NoMullisaca"> Lic. Mullisaca Choque Carlos </string>
+    <string name="CaMullisaca"> Realmente todos tienen posibilidad de aprobar en las materias que el imparte  </string>
+    <string name="AcMullisaca"> No es muy aplicado en la enseñanza, es cierto que enseña pero no todo lo que deberia verse </string>
+
+    <string name="NoReyes"> Lic. Reyes Pacheco Javier </string>
+    <string name="CaReyes"> Brinda conocimiento sobre la vida profesional, no son una charla mas, ya que aveces de eso que habla, entra al examen  </string>
+    <string name="AcReyes"> Falta a sus clases, no a todas pero si </string>
+
+    <string name="NoTapia"> Lic. Tapia Baltazar Jose Maria </string>
+    <string name="CaTapia"> Sus clases son amenas, toma en consideracion la opinion de sus estudiantes   </string>
+    <string name="AcTapia"> No te exige mucho, los temas programados muchas veces se retrasan y tambien los examenes </string>
+
+    <string name="NoTarquino"> Lic. Tarquino Peralta Celia Elena </string>
+    <string name="CaTarquino"> Recomandada totalemte, en cualqier materia que tomes, conocimeinto asegurado  </string>
+    <string name="AcTarquino"> No muchos aprueban con ella  </string>
+
+    <string name="NoVargas"> Lic. Vargas Blacutt Roberto </string>
+    <string name="CaVargas"> Atiende consultas, le gusta la participacion de los estudiantes y todo esta previamente programado  </string>
+    <string name="AcVargas"> No todos aprueban con el </string>
+
+    <string name="NoZeballos"> Lic. Zeballos Abasto Jose Luis </string>
+    <string name="CaZeballos"> Una buena opcion si tienes pensado tomar con el  </string>
+    <string name="AcZeballos"> Tines que participar obligatoriamente su bostezas o te distraes en sus clases </string>
+
+    <string name="Sobre"> DESARROLLADO POR: </string>
+    <string name="MiNombre"> Silvia Alcon Alcon </string>
+
+    <string name="Correo"> CORREO: </string>
+    <string name="MiCorreo"> silvia.320_sharon@hotmail.com </string>
+
+    <string name="Descripcion"> DESCRIPCION: </string>
+    <string name="MiDescripcion"> La aplicacion <b>MeetAndCry</b> tiene como publico objetico a los universitarios de la carrera de Informatica de la Facultad de Ciencias Puras y Naturales de la UMSA. Su principal funcionalidad es la de proporcionar informacion sobre los docentes que imparten materias.
+        \n\nEsto debe permitir al estudiante escoger una buena opcion respecto a su educacion, ya sea teniendo como referencia el rendimiento academico del docente o el caracter que este pueda tener
+    </string>
+
+    <string name="ab_boton"> VOLVER </string>
+    <string name="ab_botond"> ¿Donde Encontrarnos? </string>
+    <string name="Pie"> Curso StudyJam - GDG Android Bolivia </string>
+
+
+    <string name="ap_static1"> MATERIAS QUE IMPARTE </string>
+    <string name="ap_static2"> CALIFICACION: </string>
+
+    <string name="ap_textoMat"> Materia </string>
+    <string name="ap_textoCal"> Calificacion: </string>
+
+    <string name="minf111">INF-111 \n Introduccion a la Informatica</string>
+    <string name="mlab111"> LAB-111 \n Laboratorio de INF-111 </string>
+    <string name="minf112"> INF-112 \n Organizacion de Computadoras </string>
+    <string name="minf113"> INF-113 \n Laboratorio de Computacion </string>
+    <string name="minf121"> INF-121 \n Algoritmos y Programacion </string>
+    <string name="mlab121"> LAB-121 \n Laboratorio de INF-121 </string>
+    <string name="minf131"> INF-131 \n Estructura de Datos y Algortimos </string>
+    <string name="mlab131"> LAB-131 \n Laboratorio de INF-131 </string>
+    <string name="minf142"> INF-141 \n Fundamentos Digitales </string>
+    <string name="minf143"> INF-143 \n Taller de Programacion </string>
+    <string name="minf144"> INF-144 \n Logica para la Ciencia de la Computacion </string>
+    <string name="minf152"> INF-152 \n Sistemas de Informacion Gerencial </string>
+    <string name="minf153"> INF-153 \n Assembler </string>
+    <string name="mmat156"> MAT-156 \n Analisis Numerico </string>
+    <string name="minf161"> INF-161 \n Diseño y Administracion de Base de Datos </string>
+    <string name="minf162"> INF-162 \n Analisis y Diseño de Sistemas de Informacion </string>
+    <string name="minf164"> INF-164 \n Teoria de la Informacion y Codificacion </string>
+    <string name="minf166"> INF-166 \n Informatica y Sociedad </string>
+    <string name="minf271"> INF-271 \n Teoria de Sistemas y Modelos </string>
+    <string name="minf272"> INF-272 \n Taller de Base de Datos </string>
+    <string name="minf273"> INF-273 \n Telematica </string>
+    <string name="mlab273"> LAB-123 \n Laboratorio de INF-273 </string>
+    <string name="minf281"> INF-281 \n Taller de Sistemas de Informacion </string>
+    <string name="minf398"> INF-398 \n Taller de Licenciatura I  </string>
+    <string name="minf315"> INF-315 \n Planificacion y Seguridad de los Sistemas Informaticos </string>
+    <string name="minf336"> INF-336 \n Teoria General de Sistemas </string>
+
+
+    <string name="asem"> Primer Semestre </string>
+    <string name="bsem"> Segundo Semestre </string>
+    <string name="csem"> Tercer Semestre </string>
+    <string name="dsem"> Cuarto Semestre </string>
+    <string name="fsem"> Quinto Semestre </string>
+    <string name="gsem"> Sexto Semestre </string>
+    <string name="hsem"> Septimo Semestre </string>
+    <string name="isem"> Octavo Semestre </string>
+    <string name="jsem"> Noveno Semestre </string>
+    <string name="ksem"> Decimo Semestre </string>
+
+    <string name="tp"> DESCARGA </string>
+
+    <string name="web1"> PARA MAYOR INFORMACION DE LA CARRERA PUEDES VISITARNOS EN: </string>
+    <string name="web_t1"> Visitanos en nuestro Campus Virtual </string>
+    <string name="web_t2"> Puedes conocer mas de la carrera en nuestra pagina de Informatica</string>
+    <string name="web_t3"> ¿Ya eres parte de infoamigos? </string>
+    <string name="web_t4"> Si ya eres parte de la carrera, conectate al sistema </string>
+
+    <string name="lib1111"> "Metodología de la Programación", Ed. Ferret Moret </string>
+    <string name="lib1112"> "Metodología de la programación", Ed. Calypso </string>
+    <string name="lib1113"> "Desarrollo de Algoritmos", Ed. Mc Graw Hill </string>
+
+    <string name="lib1121"> “Arquitectura de ordenadores”, McGraw Hill </string>
+    <string name="lib1122"> “Análisis y diseño de circuitos digitales”, Prentice Hall </string>
+    <string name="lib1123"> Sistemas digitales, Principios y aplicaciones”, Prentice Hall </string>
+
+    <string name="lib1131"> “Unix Sistema Operativo”. Ed.: Palmir., 1995. </string>
+    <string name="lib1132"> "El gran libro de HTML5, CSSS3 y JavaScrip", JD Gauchat </string>
+    <string name="lib1133"> "El gran libro de HTML5, CSSS3 y JavaScrip", JD Gauchat </string>
+
+    <string name="lib1211"> Joyanes Aguilar Luis, “Fundamentos de Programación” 3ra Edición </string>
+    <string name="lib1212"> Carlos Sandoval, Omar Vera, “Diagramas de Flujo y Algoritmos” </string>
+    <string name="lib1213"> “Diagramas de Flujo y Algoritmos” </string>
+
+    <string name="lib1311"> Luis Joyanes. Estructura de Datos </string>
+    <string name="lib1312"> Gilles Brassard. Fundamentos de Algoritmos </string>
+    <string name="lib1313"> Cormen, Leirson. Introduction to Algorithms. Rivest, MIT </string>
+
+    <string name="lib1431"> Fundamentos de la Programacion, Jorge Humberto Teran Pomier </string>
+    <string name="lib1432"> Mc. Cool M. “Programming models for scalable multicore programming”. </string>
+    <string name="lib1433"> Programming in Prolog, Springer-Verlag </string>
+
+    <string name="lib1441"> The lambda calculus, sintaxis and semantics, Barendregt H.P. </string>
+    <string name="lib1442"> Introduction to combinators and lambda-calculus, Hindley Roger </string>
+    <string name="lib1443"> Predicate calculus and program semantics, Scholten C. </string>
+
+    <string name="lib1521"> Fundamentos de Administración Financiera Lawrense W. Gitman </string>
+    <string name="lib1522"> Introducción a la Teoría de la Administración Idalberto Chiavenato </string>
+    <string name="lib1523"> Sistemas Administrativos Schorderbek Koalas </string>
+
+    <string name="lib1531"> Lenguaje Ensamblador y programacion para IBM PC y Compaibles, Peter Abel </string>
+    <string name="lib1532"> Lenguaje ensamblador para computadoras basadas en intel, KIP R. IRVINE </string>
+    <string name="lib1533"> Assembler desde cero, Mario Ginzburg </string>
+
+    <string name="lib1561"> Metodos Numericos, CHAPRA </string>
+    <string name="lib1562"> Metodos numeticos Aplicados a la Ingenieria, Antonio Nieves </string>
+    <string name="lib1563"> Metodos Numericos, WMora </string>
+
+    <string name="lib1611"> Diseño de Base de Datos, Adoración de Miguel </string>
+    <string name="lib1612"> Diseño de Base de Datos, J. Elmasri </string>
+    <string name="lib1613"> Del Modelo E/R al relacional, Adoración de Miguel </string>
+
+    <string name="lib1621"> Análisis y Diseño de Sistemas Autor, Kendall y Kendall </string>
+    <string name="lib1622"> Análisis Estructurado Moderno Autor, Yourdon, Edward </string>
+    <string name="lib1623"> Ingeniería del Software Autor, Sommerville, Ian </string>
+
+</resources>

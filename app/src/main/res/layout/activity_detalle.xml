@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/try1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/img_adp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/img"/>
+
+    <TextView
+        android:layout_below="@id/img_adp"
+        android:id="@+id/txt_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:text="@string/NomPer"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"/>
+
+    <TextView
+        android:layout_below="@id/txt_nom"
+        android:id="@+id/txt1_adp"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_borcua"
+        android:text="@string/RAcademico"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"/>
+
+    <TextView
+        android:layout_below="@id/txt1_adp"
+        android:id="@+id/txt2_adp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:layout_margin="5dp"
+        android:text="@string/Rendimiento"
+        android:textSize="15dp"
+        android:textColor="@color/primary_text"
+        />
+
+    <TextView
+        android:layout_below="@id/txt2_adp"
+        android:id="@+id/txt3_adp"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_borcua"
+        android:text="@string/RCaracter"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"/>
+
+    <TextView
+        android:layout_below="@id/txt3_adp"
+        android:id="@+id/txt4_adp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:layout_margin="5dp"
+        android:text="@string/Caracter"
+        android:textSize="15dp"
+        android:textColor="@color/primary_text"
+        />
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_volver"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_relleno"
+            android:text="@string/ab_boton"
+            android:textColor="@color/icons"/>
+
+</RelativeLayout>
