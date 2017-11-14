@@ -95,7 +95,7 @@ Silvia Alcon Alcon
 
 Contactos
 ---
-silvia.320_sharon@gmail.com<br>
+silvia.320_sharon@hotmail.com<br>
 La Paz - Bolivia<br>
 [Facebook](https://www.facebook.com/silvia.alcon.39)
 
