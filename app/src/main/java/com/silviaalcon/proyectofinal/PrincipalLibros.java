@@ -89,18 +89,18 @@ public class PrincipalLibros extends AppCompatActivity implements LibrosAdapter.
 
     private void llenarDatos() {
         List<Libros> lista = new ArrayList<>();
-        lista.add(new Libros(R.drawable.sem_aprimer, getString(R.string.minf111), getString(R.string.lib1111), getString(R.string.tp), getString(R.string.lib1112), getString(R.string.tp), getString(R.string.lib1113), getString(R.string.tp)));
-        lista.add(new Libros(R.drawable.sem_aprimer, getString(R.string.minf112), getString(R.string.lib1121), getString(R.string.tp), getString(R.string.lib1122), getString(R.string.tp), getString(R.string.lib1123), getString(R.string.tp)));
-        lista.add(new Libros(R.drawable.sem_aprimer, getString(R.string.minf113), getString(R.string.lib1131), getString(R.string.tp), getString(R.string.lib1132), getString(R.string.tp), getString(R.string.lib1133), getString(R.string.tp)));
-        lista.add(new Libros(R.drawable.sem_bseg, getString(R.string.minf121), getString(R.string.lib1211), getString(R.string.tp), getString(R.string.lib1212), getString(R.string.tp), getString(R.string.lib1213), getString(R.string.tp)));
-        lista.add(new Libros(R.drawable.sem_cter, getString(R.string.minf131), getString(R.string.lib1311), getString(R.string.tp), getString(R.string.lib1312), getString(R.string.tp), getString(R.string.lib1313), getString(R.string.tp)));
-        lista.add(new Libros(R.drawable.sem_dcua, getString(R.string.minf143), getString(R.string.lib1431), getString(R.string.tp), getString(R.string.lib1432), getString(R.string.tp), getString(R.string.lib1433), getString(R.string.tp)));
+        lista.add(new Libros(R.drawable.sem_aprimer, getString(R.string.minf111), getString(R.string.tp), getString(R.string.lib1111), getString(R.string.tp), getString(R.string.lib1112), getString(R.string.tp), getString(R.string.lib1113)));
+        lista.add(new Libros(R.drawable.sem_aprimer, getString(R.string.minf112), getString(R.string.tp), getString(R.string.lib1121), getString(R.string.tp), getString(R.string.lib1122), getString(R.string.tp), getString(R.string.lib1123)));
+        lista.add(new Libros(R.drawable.sem_aprimer, getString(R.string.minf113), getString(R.string.tp), getString(R.string.lib1131), getString(R.string.tp), getString(R.string.lib1132), getString(R.string.tp), getString(R.string.lib1133)));
+        lista.add(new Libros(R.drawable.sem_bseg, getString(R.string.minf121), getString(R.string.tp), getString(R.string.lib1211), getString(R.string.tp), getString(R.string.lib1212), getString(R.string.tp), getString(R.string.lib1213)));
+        lista.add(new Libros(R.drawable.sem_cter, getString(R.string.minf131), getString(R.string.tp), getString(R.string.lib1311), getString(R.string.tp), getString(R.string.lib1312), getString(R.string.tp), getString(R.string.lib1313)));
+        lista.add(new Libros(R.drawable.sem_dcua, getString(R.string.minf143), getString(R.string.tp), getString(R.string.lib1431), getString(R.string.tp), getString(R.string.lib1432), getString(R.string.tp), getString(R.string.lib1433)));
         //lista.add(new Libros(R.drawable.sem_dcua, getString(R.string.minf144), getString(R.string.lib1), getString(R.string.tp), getString(R.string.tp), getString(R.string.tp), getString(R.string.tp), getString(R.string.tp)));
-        lista.add(new Libros(R.drawable.sem_equi, getString(R.string.minf152), getString(R.string.lib1521), getString(R.string.tp), getString(R.string.lib1522), getString(R.string.tp), getString(R.string.lib1523), getString(R.string.tp)));
+        lista.add(new Libros(R.drawable.sem_equi, getString(R.string.minf152), getString(R.string.tp), getString(R.string.lib1521), getString(R.string.tp), getString(R.string.lib1522), getString(R.string.tp), getString(R.string.lib1523)));
         //lista.add(new Libros(R.drawable.sem_equi, getString(R.string.minf153), getString(R.string.lib), getString(R.string.tp), getString(R.string.tp), getString(R.string.tp), getString(R.string.tp), getString(R.string.tp)));
         //lista.add(new Libros(R.drawable.sem_equi, getString(R.string.mmat156), getString(R.string.), getString(R.string.tp), getString(R.string.tp), getString(R.string.tp), getString(R.string.tp), getString(R.string.tp)));
-        lista.add(new Libros(R.drawable.sem_fsex, getString(R.string.minf161), getString(R.string.lib1611), getString(R.string.tp), getString(R.string.lib1612), getString(R.string.tp), getString(R.string.lib1613), getString(R.string.tp)));
-        lista.add(new Libros(R.drawable.sem_fsex, getString(R.string.minf162), getString(R.string.lib1621), getString(R.string.tp), getString(R.string.lib1622), getString(R.string.tp), getString(R.string.lib1623), getString(R.string.tp)));
+        lista.add(new Libros(R.drawable.sem_fsex, getString(R.string.minf161), getString(R.string.tp), getString(R.string.lib1611), getString(R.string.tp), getString(R.string.lib1612), getString(R.string.tp), getString(R.string.lib1613)));
+        lista.add(new Libros(R.drawable.sem_fsex, getString(R.string.minf162),getString(R.string.tp), getString(R.string.lib1621), getString(R.string.tp), getString(R.string.lib1622), getString(R.string.tp), getString(R.string.lib1623)));
         librosAdapter.setDataset(lista);
     }
 
@@ -111,5 +111,6 @@ public class PrincipalLibros extends AppCompatActivity implements LibrosAdapter.
         Intent intent = new Intent(getApplicationContext(), LibrosActivity.class);
         intent.putExtra("libros", libros);
         startActivity(intent);
+        finish();
     }
 }
